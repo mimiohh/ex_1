@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Webpage</title>
+  <title>동작구 프린세스 연습장</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       font-size: 16px;
+      background-color: beige;
     }
     #menu {
       background-color: #333;
@@ -30,6 +31,17 @@
     #link-button:hover {
       background-color: #555;
     }
+
+    #cta {
+      background-color: black;
+      color: #FFFFFF;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      margin-top: 30px;
+      border-radius: 5px;
   </style>
 </head>
 <body>
@@ -43,3 +55,6 @@
   </div>
   <h1>Welcome to my webpage</h1>
   <p>This is the main text of my webpage. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada auctor sapien, vel consequat odio faucibus eget. Aliquam volutpat urna nec neque hendrerit, eu fermentum sapien laoreet. Vestibulum sagittis ex vel magna ultrices facilisis. In porttitor velit at metus cursus, non convallis eros euismod. Phasellus sed tortor in risus iaculis tristique. Donec sed ante aliquam, elementum libero eget, suscipit nulla.
+  </div>
+</body>
+</html>
