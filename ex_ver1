@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    #menu {
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    #menu a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+    #link-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    #link-button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div id="menu">
+    <div>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <a id="link-button" href="#">Sign Up</a>
+  </div>
+  <h1>Welcome to my webpage</h1>
+  <p>This is the main text of my webpage. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada auctor sapien, vel consequat odio faucibus eget. Aliquam volutpat urna nec neque hendrerit, eu fermentum sapien laoreet. Vestibulum sagittis ex vel magna ultrices facilisis. In porttitor velit at metus cursus, non convallis eros euismod. Phasellus sed tortor in risus iaculis tristique. Donec sed ante aliquam, elementum libero eget, suscipit nulla.
