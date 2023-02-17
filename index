@@ -1,60 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>동작구 프린세스 연습장</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      font-size: 16px;
-      background-color: beige;
-    }
-    #menu {
-      background-color: #333;
-      color: #fff;
-      display: flex;
-      justify-content: space-between;
-      padding: 10px;
-    }
-    #menu a {
-      color: #fff;
-      text-decoration: none;
-      margin-right: 10px;
-    }
-    #link-button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #333;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    #link-button:hover {
-      background-color: #555;
-    }
-
-    #cta {
-      background-color: black;
-      color: #FFFFFF;
-      padding: 15px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 18px;
-      margin-top: 30px;
-      border-radius: 5px;
-  </style>
+	<title>Example Page</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		h1 {
+			font-size: 36px;
+			margin: 0;
+			text-transform: uppercase;
+		}
+		
+		nav {
+			background-color: #eee;
+			padding: 10px;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav li {
+			display: inline-block;
+			margin-right: 10px;
+		}
+		
+		nav a {
+			color: #333;
+			text-decoration: none;
+			padding: 10px;
+			border: 1px solid #333;
+		}
+		
+		nav a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+		
+		main {
+			padding: 20px;
+		}
+		
+		h2 {
+			font-size: 24px;
+			margin-top: 0;
+		}
+		
+		p {
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+	</style>
 </head>
 <body>
-  <div id="menu">
-    <div>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </div>
-    <a id="link-button" href="#">Sign Up</a>
-  </div>
-  <h1>Welcome to my webpage</h1>
-  <p>This is the main text of my webpage. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada auctor sapien, vel consequat odio faucibus eget. Aliquam volutpat urna nec neque hendrerit, eu fermentum sapien laoreet. Vestibulum sagittis ex vel magna ultrices facilisis. In porttitor velit at metus cursus, non convallis eros euismod. Phasellus sed tortor in risus iaculis tristique. Donec sed ante aliquam, elementum libero eget, suscipit nulla.
-  </div>
-</body>
-</html>
+	<header>
+		<h1>Example Page</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<h2>Introduction</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat, magna eget blandit laoreet, massa arcu tincidunt dolor, a luctus nunc lorem nec sapien. Sed consequat euismod felis sit amet mollis. Sed in nunc eget elit sollicitudin interdum. Pellentesque ut odio vel augue suscipit molestie a nec nibh. Integer iaculis augue in velit pulvinar vestibulum. Integer ultricies tellus sit amet neque ultricies gravida. Donec non tellus sed lectus facilisis dictum ac a magna.</p>
+		
+		<h2>Section 1</h2>
+		<p>Nullam eget vestibulum lacus. Vivamus hendrerit tristique arcu, eu gravida ex tincidunt ut. Fusce malesuada, justo eu luctus congue, arcu justo convallis erat, sit amet fringilla mauris mauris eget justo. Donec luctus, nulla in bibendum lacinia, purus elit tincidunt elit, ac posuere purus risus non lacus. Suspendisse potenti. Ut dictum suscipit diam, vel interdum arcu posuere vel. Sed elementum, nisl non consectetur malesuada, dui libero dictum augue, id ultrices ex augue quis enim.</p>
+		
+		<h2>Section 2</h2>
+		<p>Sed sodales, urna vel gravida luctus, turpis turpis posuere or
