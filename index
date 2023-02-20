@@ -11,7 +11,7 @@
 			padding: 0;
 		}
 		h1 {
-			font-size: 24px;
+			font-size: 23px;
 			color: #FF6347;
 			margin-top: 30px;
 			margin-bottom: 10px;
